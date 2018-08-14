@@ -12,7 +12,7 @@ attr_accessor :word
       match=[]
 
       array.each do |aword|
-        match << aword if @word.split.sort == aword.split.sort
+        match << aword if @word.split("").sort == aword.split("").sort
         end
 binding.pry
       match
