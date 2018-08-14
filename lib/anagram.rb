@@ -13,9 +13,7 @@ attr_accessor :word
         match << aword if @word.split.sort == aword.split.sort
         end
 
-      match        
-      end
-      #>return all matches or empty array
+      match
     end
 
 end
